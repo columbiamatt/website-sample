@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Project Description{% endblock %}
+
+{% block content %}
+
+	<div class="container">
+		<h1>Project Description</h1>
+		<hr />
+
+		<p>
+			I use data from multiple sources to identify best practice policies that are transferrable to jurisdictions around the country.  Using <a href="http://www.census.gov/programs-surveys/acs//">Census</a> data in addition to data from the <a href="http://www.eac.gov/">U.S. Election Assistance Commission</a> (EAC), I will be able to show how similar counties (in terms of size and demographics) vote very differently and examine reasons why.  For example, comparing similar-sized counties, if one is showing high rates of provisional ballots or rejected absentee ballots or lower than average turnout, I will be able to identify and examine potential problems.
+		</p>
+		<br>
+		<p>
+			I will incorporate state-level data from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28979">Survey of the Performance of the American Electorate</a> (SPAE), especially with respect to average wait times in line to compare state policies.  Data from the <a href="https://github.com/openelections/">OpenElections</a> organization will allow me to incorporate the Democrat/Republican vote share into my analyses.  With a <a href="https://developers.google.com/civic-information/?hl=en">Google API</a>, my project can incorporate an online tool that allows every voter to see various metrics about election administration and how their county compares against their statewide average and the national averages.
+		</p>
+		<br>
+		<p>
+			I envision a look up tool that any individual in the United States can type in their address to see information about their legislators, polling place, etc as well as historical information about their county or state’s level of early voting, absentee voting, average polling place wait time (statewide), poll workers, military voting, and many other metrics pulled from the various databases.
+		</p>
+		
+	</div>
+
+{% endblock %}
