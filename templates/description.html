@@ -5,20 +5,17 @@
 {% block content %}
 
 	<div class="container">
-		<h1>Project Description</h1>
+		<h1>Maryland Election Administration Project Description</h1>
 		<hr />
 
 		<p>
-			I use data from multiple sources to identify best practice policies that are transferrable to jurisdictions around the country.  Using <a href="http://www.census.gov/programs-surveys/acs//">Census</a> data in addition to data from the <a href="http://www.eac.gov/">U.S. Election Assistance Commission</a> (EAC), I will be able to show how similar counties (in terms of size and demographics) vote very differently and examine reasons why.  For example, comparing similar-sized counties, if one is showing high rates of provisional ballots or rejected absentee ballots or lower than average turnout, I will be able to identify and examine potential problems.
+			I use bulk CSV data primarily from the U.S. Election Assistance Commission's 2012 and 2014 Election Administration and Voting Surveys.  The data can be found on the <a href="http://www.eac.gov/">U.S. Election Assistance Commission's</a> website. The data I was interested in include total registration rates, total turnout, turnout at the polling place, number of polling places, and number of poll workers for each federal election.  From the data made available by the EAC and cleaned by Pew and others, I was able to create new metrics using Python coding for election over election improvement in the preparation and planning for turnout by county election officials.  I then compared local jurisdiction's ranking in the various metrics against the other jurisdictions in the state.
 		</p>
 		<br>
 		<p>
-			I will incorporate state-level data from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28979">Survey of the Performance of the American Electorate</a> (SPAE), especially with respect to average wait times in line to compare state policies.  Data from the <a href="https://github.com/openelections/">OpenElections</a> organization will allow me to incorporate the Democrat/Republican vote share into my analyses.  With a <a href="https://developers.google.com/civic-information/?hl=en">Google API</a>, my project can incorporate an online tool that allows every voter to see various metrics about election administration and how their county compares against their statewide average and the national averages.
+			In this project, all data come from county and county-equivalents in the state of Maryland.  There are 23 counties in addition to the independent city of Baltimore.  I ranked each of the jurisdictions by each created metric to see whether a county or county equivalent undertook steps to improve election over election.  I compare rank relative to other county or county equivalent because using raw numbers is less helpful when comparing a presidential election and midterm election, which I was forced to do based on data availability and quality.\
 		</p>
-		<br>
-		<p>
-			I envision a look up tool that any individual in the United States can type in their address to see information about their legislators, polling place, etc as well as historical information about their county or state’s level of early voting, absentee voting, average polling place wait time (statewide), poll workers, military voting, and many other metrics pulled from the various databases.
-		</p>
+		
 		
 	</div>
 

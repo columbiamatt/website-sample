@@ -5,23 +5,18 @@
 {% block content %}
 
 	<div class="container">
-		<h1>Methodology</h1>
+		<h1>Maryland Election Administration Project Methodology</h1>
 		<hr />
 
 		<p>
-			There are numerous sources of data available at the county level that allow comparisons across jurisdictions and states that build the basis for national best practices and policy.
+			The data included dozens of metrics by county or county-equivalent for every state and territory in the country, more than 8,000 unique reporting jurisdictions.  In Maryland, there are 24 county or county equivalents that reported data.  The data I was interested in include total registration rates, total turnout, turnout at the polling place, number of polling places, and number of poll workers for each federal election. Other data exist that speak to election administration, but I chose these data for their relative completeness and accuracy.
     	</p>
+    	<br>
+    	<p>I would have liked to use the data above and regress it against whether the county had higher than average wait times at the polling place.  For example, if a medium sized jurisdiction with average size polling places but fewer poll workers per voter was experiencing higher than average lines, we could use the data to find potentially optimal levels of poll worker staffing.  Alas, election line data do not exist at the county level, though, there are numerous competing efforts to bring such data into the public eye in 2016 and beyond.</p>
+    	<br>
+    	<p>Until those outcome data are available, I was forced to compare a county's relative rank in the generated metrics election over election. </p> 
 
-   		 <h2>Source List</h2>
-   			<ol>
-    			<li>Census Bureau, American Community Survey</li>
-    			<li>U.S. Election Assistance Commission, Election Administration and Voting Survey</li>
-     			<li>Survey for the Performance of the American Electorate (SPAE)</li>
-     			<li>Google Civic Information API</li>
-				<li>OpenElections</li>
-    		</ol>
-		
-		
+   		 
 	</div>
 
 {% endblock %}
